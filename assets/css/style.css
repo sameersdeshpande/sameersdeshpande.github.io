@@ -85,7 +85,7 @@
   position: relative;
   padding: 11px 35px;
   background: #fff;
-  color: #00796b;
+  color: #53a5ec;
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -140,7 +140,7 @@ body {
 } */
 
 a {
-  color: #004d40;
+  color: #000000;
 }
 
 /* main blockqoute */
@@ -473,7 +473,7 @@ a.hoverline {
 } */
 
 a.hoverline:hover {
-  border-bottom: 3px solid #004d40 !important;
+  border-bottom: 3px solid #1500ff !important;
 }
 
 #skills .card.large {
@@ -552,7 +552,7 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #008073 !important;
+  color: #000000 !important;
 }
 
 /* .teal-text {
@@ -562,7 +562,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #53a5ec !important;
 }
 .agimg{
  padding: 30px;
