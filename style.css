@@ -440,7 +440,51 @@ article .icon {
   margin: 0 auto;
   text-align: center;
 }
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+  color: #333;
+}
+.project {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.project-title {
+  color: #555;
+  font-size: 20px;
+}
+.project-description {
+  color: #777;
+}
 
+
+
+.project_container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.projectt {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+.projectt-title {
+  color: #555;
+  font-size: 20px;
+}
+.projectt-description {
+  color: #777;
+
+}
 /* CONTACT */
 
 #contact {
