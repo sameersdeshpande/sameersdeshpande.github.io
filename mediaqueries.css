@@ -23,18 +23,18 @@
     display: flex;
   }
   #experience,
-  .experience-details-container {
+  .experience-details-container, .timeline {
     margin-top: 2rem;
   }
   #profile,
-  .section-container{
+  .section-container,.timeline{
     display: block;
   }
   .arrow {
     display: none;
   }
   section,
-  .section-container {
+  .section-container, .timeline {
     height: fit-content;
   }
   section {
@@ -68,7 +68,8 @@
   }
   .about-containers,
   .contact-info-upper-container,
-  .btn-container, .timeline-content {
+  .btn-container,
+  .timeline {
     flex-wrap: wrap;
   }
   .contact-info-container {
@@ -100,17 +101,37 @@
   .title {
     font-size: 2rem;
   }
-  .text-container {
-    text-align: justify;
+  .timeline {
+    max-width: 100%;
+    margin: 0px auto 0 auto;
+    margin-left: 0;
   }
+
   .timeline-item {
-    margin-left: 0; /* Remove margin for timeline items */
-    text-wrap: nowrap;
-    justify-content: center;
+    width: 100%;
+    padding: 10px;
+    border-left: none;
+    margin-bottom: 15px;
+
   }
+
+  .timeline-content {
+    padding-left: 0;
+  }
+  .job-title {
+    font-size: 1.25em; /* Reduce font size for job titles */
+  }
+
   .job-duration {
-    float: right; /* Align job duration to the right */
-    font-size: 0.8rem; /* Adjust font size for job duration */
-    margin-top: 0.5rem; /* Add spacing between job title and duration */
+    display: block; /* Ensure job duration spans the full width */
+  }
+  .timeline-content {
+    font-size: 12px;
+    word-wrap: break-word;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    hyphens: auto;
+    align-items: center;
   }
 }

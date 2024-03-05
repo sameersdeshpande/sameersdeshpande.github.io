@@ -197,8 +197,8 @@ section {
 .title {
   font-size: 3rem;
   text-align: center;
-  text-wrap:nowrap;
-  
+  text-wrap: nowrap;
+
 }
 
 #socials-container {
@@ -220,7 +220,6 @@ section {
 .btn-container {
   display: flex;
   justify-content: center;
-  gap: 2rem;
 }
 
 .btn {
@@ -325,7 +324,7 @@ section {
 /* EXPERIENCE SECTION */
 
 #experience {
- 
+
   margin-top: -200px;
 }
 
@@ -340,20 +339,23 @@ section {
 .timeline {
   max-width: 800px;
   margin: 20px auto 0 auto;
-  margin-left: 20px; 
+  margin-left: 20px;
 }
 
 .timeline-item {
-  position: relative; /* Add position relative */
+  position: relative;
+  /* Add position relative */
   padding: 20px;
   border-left: 2px solid #ccc;
   margin-bottom: 20px;
   width: 1100px;
-  transition: background-color 0.3s; /* Add transition for smoother effect */
+  transition: background-color 0.3s;
+  /* Add transition for smoother effect */
 }
 
 .timeline-item:hover {
-  background-color: #f0f0f0; /* Change background color on hover */
+  background-color: #f0f0f0;
+  /* Change background color on hover */
 }
 
 .timeline-content {
@@ -385,6 +387,7 @@ section {
   flex-wrap: wrap;
   flex-direction: row;
   gap: 2.0rem;
+
 }
 
 article {
@@ -405,6 +408,7 @@ article .icon {
 
 #projects {
   position: relative;
+
 }
 
 .color-container {
@@ -426,6 +430,15 @@ article .icon {
 .project-btn {
   color: black;
   border-color: rgb(163, 163, 163);
+
+}
+
+.moreprojects-btn {
+  color: black;
+  border-color: rgb(163, 163, 163);
+  display: block;
+  margin: 0 auto;
+  text-align: center;
 }
 
 /* CONTACT */
