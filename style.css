@@ -463,6 +463,14 @@ h1 {
   color: #777;
 }
 
+.projectt.project-a {
+  cursor: pointer;
+  transition: transform 0.2s ease-in-out;
+}
+
+.projectt.project-a:hover {
+  transform: scale(1.1);
+}
 
 
 .project_container {
