@@ -319,6 +319,15 @@ section {
   margin: auto 0;
 }
 
+.btn-color-3{
+  background-color: #007BFF;  /* Blue background */
+  color: black;               /* White text color */
+  padding: 10px;              /* Padding around the content */
+  width: 50%;  
+  border-color: #ccc;      /* Rounded corners */
+  margin: 20px auto;          /* Center align the box */
+  text-align: center;  
+}
 
 /* EXPERIENCE SECTION */
 
